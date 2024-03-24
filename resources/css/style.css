@@ -11,11 +11,6 @@ h2 {
 }
 
 /* HEADER */
-header {
-  position: sticky;
-  top: 0px;
-}
-
 li {
   display: inline-block;
   width: 100px;
@@ -55,6 +50,6 @@ img {
 /* ID */
 #declaration {
   text-align: center;
+  font-family: sans-serif;
   margin: 0 auto;
-  letter-spacing: 0.01px;
 }
