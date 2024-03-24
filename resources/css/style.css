@@ -1,17 +1,16 @@
-/* Universal */
+/* UNIVERSAL */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-
-
-/* HEADER */
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
+/* HEADER */
 li {
   display: inline-block;
   width: 100px;
