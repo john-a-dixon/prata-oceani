@@ -11,6 +11,11 @@ h2 {
 }
 
 /* HEADER */
+header {
+  position: sticky;
+  top: 0px;
+}
+
 li {
   display: inline-block;
   width: 100px;
@@ -23,9 +28,18 @@ ul {
   text-align: center;
 }
 
+nav {
+  position: sticky;
+  top: 0px;
+}
+
 /* ALL SECTIONS */
 section {
   width: 75%;
+  margin: 0 auto;
+}
+
+figure {
   margin: 0 auto;
 }
 
@@ -36,4 +50,10 @@ figcaption {
 
 img {
   width: 500px;
+}
+
+/* ID */
+#declaration {
+  text-align: center;
+  margin: 0 auto;
 }
