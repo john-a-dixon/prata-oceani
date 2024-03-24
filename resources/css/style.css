@@ -1,9 +1,18 @@
+/* Universal */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+
+
+/* Types */
 img {
   width: 500px;
+}
+
+figcaption {
+  font-size: small;
+  font-style: italic;
 }
