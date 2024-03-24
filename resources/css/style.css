@@ -8,10 +8,6 @@
 
 
 /* Types */
-img {
-  width: 500px;
-}
-
 figcaption {
   font-size: small;
   font-style: italic;
@@ -21,14 +17,26 @@ h1 {
   text-align: center;
 }
 
-ul {
+img {
   width: 500px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 li {
   display: inline-block;
   width: 100px;
   margin: 0 auto;
+}
+
+p {
+  width: 750px;
+}
+
+ul {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section > * {
+  display: inline-block;
 }
