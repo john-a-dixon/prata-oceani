@@ -1,18 +1,55 @@
-/* Universal */
+/* UNIVERSAL */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+h1,
+h2 {
+  text-align: center;
+}
 
+/* HEADER */
+li {
+  display: inline-block;
+  width: 100px;
+  margin: 0 auto;
+}
 
-/* Types */
-img {
+ul {
   width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+/* ALL SECTIONS */
+section {
+  width: 75%;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0 auto;
 }
 
 figcaption {
   font-size: small;
   font-style: italic;
+}
+
+img {
+  width: 500px;
+}
+
+/* ID */
+#declaration {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto;
 }
