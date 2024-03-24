@@ -7,18 +7,9 @@
 
 
 
-/* Types */
-figcaption {
-  font-size: small;
-  font-style: italic;
-}
-
+/* HEADER */
 h1 {
   text-align: center;
-}
-
-img {
-  width: 500px;
 }
 
 li {
@@ -27,16 +18,23 @@ li {
   margin: 0 auto;
 }
 
-p {
-  width: 750px;
-}
-
 ul {
   width: 500px;
   margin: 0 auto;
   text-align: center;
 }
 
-section > * {
-  display: inline-block;
+/* ALL SECTIONS */
+section {
+  width: 75%;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: small;
+  font-style: italic;
+}
+
+img {
+  width: 500px;
 }
