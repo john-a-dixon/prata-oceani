@@ -24,11 +24,11 @@ h1 {
 ul {
   width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 
 li {
   display: inline-block;
-  text-align: center;
   width: 100px;
   margin: 0 auto;
 }
