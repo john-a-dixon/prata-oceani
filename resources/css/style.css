@@ -10,11 +10,16 @@ h2 {
   text-align: center;
 }
 
+:root {
+  --main-color: yellow;
+}
+
 /* HEADER */
 li {
   display: inline-block;
   width: 100px;
   margin: 0 auto;
+  background-color: var(--main-color);
 }
 
 ul {
