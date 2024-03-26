@@ -54,7 +54,8 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  text-decoration: overline;
+  color: green;
 }
 /* HEADER */
 li {
