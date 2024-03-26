@@ -11,7 +11,7 @@ h2 {
 }
 
 :root {
-  --main-color: hsl(213, 70%, 68%);
+  --background: hsla(213, 70%, 68%, 100%);
 }
 
 /* HEADER */
@@ -19,7 +19,7 @@ li {
   display: inline-block;
   width: 100px;
   margin: 0 auto;
-  background-color: var(--main-color);
+  background-color: var(--background);
 }
 
 ul {
