@@ -11,6 +11,7 @@
   --b: hsl(218, 43%, 37%);
   --c: hsl(192, 54%, 67%);
   --d: hsl(177, 46%, 91%);
+  --e: hsl(177, 76%, 81%);
 }
 
 h1,
@@ -19,9 +20,18 @@ h2 {
   color: var(--d);
 }
 
-p {
-  font-family: var(--body-text);
+h1 {
+  color: var(--e); 
 }
+
+h2 {
+  color: var(--c);
+}
+
+p {
+  color: var(--d);
+}
+
 /* HEADER */
 li {
   display: inline-block;
