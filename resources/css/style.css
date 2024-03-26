@@ -45,6 +45,7 @@ p {
 
 a {
   color: var(--b);
+  cursor: cell;
 }
 
 a:hover {
