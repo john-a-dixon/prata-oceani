@@ -32,6 +32,17 @@ p {
   color: var(--d);
 }
 
+a {
+  color: var(--b);
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
 /* HEADER */
 li {
   display: inline-block;
