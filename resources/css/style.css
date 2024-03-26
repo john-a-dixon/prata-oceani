@@ -9,6 +9,7 @@
 h1,
 h2 {
   text-align: center;
+  color: var(--a);
 }
 
 :root {
@@ -23,7 +24,6 @@ li {
   display: inline-block;
   width: 100px;
   margin: 0 auto;
-  background-color: var(--background);
 }
 
 ul {
@@ -50,6 +50,7 @@ figure {
 figcaption {
   font-size: small;
   font-style: italic;
+  color: var(--c)
 }
 
 img {
