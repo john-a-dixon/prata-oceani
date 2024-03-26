@@ -50,6 +50,7 @@ a {
 
 a:hover {
   color: red;
+  text-decoration: line-through;
 }
 
 a:active {
