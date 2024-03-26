@@ -101,3 +101,10 @@ img {
   font-family: sans-serif;
   margin: 0 auto;
 }
+
+footer button {
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  margin: 0px auto;
+}
