@@ -6,19 +6,25 @@
   background-color: var(--a);
 }
 
+:root {
+  --a: hsl(238, 56%, 13%);
+  --b: hsl(218, 43%, 37%);
+  --c: hsl(192, 54%, 67%);
+  --d: hsl(177, 46%, 91%);
+
+  --body-text: Caslon, Georgia, 'Times New Roman';
+  /* --headings */
+}
+
 h1,
 h2 {
   text-align: center;
   color: var(--d);
 }
 
-:root {
-  --a: hsl(238, 56%, 13%);
-  --b: hsl(218, 43%, 37%);
-  --c: hsl(192, 54%, 67%);
-  --d: hsl(177, 46%, 91%);
+p {
+  font-family: var(--body-text);
 }
-
 /* HEADER */
 li {
   display: inline-block;
