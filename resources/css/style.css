@@ -3,13 +3,13 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  background-color: var(--d);
+  background-color: var(--a);
 }
 
 h1,
 h2 {
   text-align: center;
-  color: var(--a);
+  color: var(--d);
 }
 
 :root {
