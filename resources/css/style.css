@@ -117,5 +117,9 @@ button {
 button:hover {
   width: 105px;
   height: 45px;
-  color: azure;
+  background-color: azure;
+}
+
+button:active {
+  font-size: 18px;
 }
