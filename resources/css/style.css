@@ -11,7 +11,7 @@ h2 {
 }
 
 :root {
-  --main-color: yellow;
+  --main-color: hsl(213, 70%, 68%);
 }
 
 /* HEADER */
