@@ -102,9 +102,12 @@ img {
   margin: 0 auto;
 }
 
-footer button {
+button {
+  display: block;
   cursor: pointer;
+  border: none;
   width: 50px;
   height: 25px;
-  margin: 0px auto;
+  margin: 0 auto;
+  background-color: var(--c);
 }
