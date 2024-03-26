@@ -112,12 +112,16 @@ button {
   background-color: var(--c);
   font-family: Truculenta;
   border-radius: 10px;
+  transition-property: background-color, width, height;
+  transition-duration: 150ms;
 }
 
 button:hover {
   width: 105px;
   height: 45px;
   background-color: azure;
+  transition-property: background-color, width, height;
+  transition-duration: 150ms;
 }
 
 button:active {
