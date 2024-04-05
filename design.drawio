@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-04-05T02:57:38.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="7726Q0hn4U8Pymiqzn-u" version="24.1.0" type="device">
+  <diagram name="Page-1" id="GAg8haRcpsVNe8hPWDVm">
+    <mxGraphModel dx="5007" dy="2257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3JFMlEUNZGDiNWC0OtGJ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3D3D3D;strokeColor=#858585;connectable=0;allowArrows=0;expand=0;movable=0;resizable=0;rotatable=0;cloneable=0;deletable=0;container=1;imageAspect=1;opacity=50;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="RJW7VMsSMWp2yGj4S-rq-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#858585;fillStyle=dots;" vertex="1" parent="3JFMlEUNZGDiNWC0OtGJ-4">
+          <mxGeometry width="1920" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="RJW7VMsSMWp2yGj4S-rq-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D3D3D;strokeColor=#858585;arcSize=50;aspect=fixed;" vertex="1" parent="3JFMlEUNZGDiNWC0OtGJ-4">
+          <mxGeometry x="890" y="90" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3JFMlEUNZGDiNWC0OtGJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3D3D3D;strokeColor=#858585;opacity=50;connectable=0;allowArrows=0;expand=0;movable=0;rotatable=0;cloneable=0;deletable=0;" parent="1" vertex="1">
+          <mxGeometry y="1200" width="1920" height="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="RJW7VMsSMWp2yGj4S-rq-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#858585;fillStyle=dots;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1310" width="800" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RJW7VMsSMWp2yGj4S-rq-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#8a8a8a&quot;&gt;&lt;span style=&quot;font-weight: 400; font-size: 48px;&quot;&gt;HISTORY&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 90%;&quot;&gt;&lt;font color=&quot;#8a8a8a&quot;&gt;&lt;span style=&quot;font-size: 21px; font-weight: 400;&quot;&gt;Commodo viverra maecenas accumsan lacus vel. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Netus et malesuada fames ac turpis egestas. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Lacus vel facilisis volutpat est velit egestas. Bibendum arcu vitae elementum curabitur vitae nunc.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1320" width="690" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RJW7VMsSMWp2yGj4S-rq-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3D3D3D;strokeColor=#858585;" vertex="1" parent="1">
+          <mxGeometry y="2000" width="1920" height="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
