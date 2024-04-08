@@ -11,7 +11,7 @@
   --darker: hsl(238, 18%, 31%);
   --mid: hsl(237, 18%, 48%);
   --lighter: hsl(237, 34%, 65%);
-  --lightest: hsl(237, 83%, 82%);
+  --lightest: hsl(237, 83%, 90%);
 }
 
 /********************BASE********************/
@@ -37,7 +37,7 @@ main > section:last-child {
 
 /********************LEFT SIDE********************/
 main > section:first-child {
-  width: 20%;
+  width: 5%;
 }
 
 main > section:first-child > h2 {
@@ -47,17 +47,20 @@ main > section:first-child > h2 {
   border-radius: 10px 10px 0 0;
   height: 40px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   padding-top: 5px;
-  padding-left: 20px;
+  font-family: "Tenor Sans";
 }
 
 main > section:first-child li {
-  padding-left: 20px;
   display: block;
   height: 30px;
-  border-bottom: 1px solid var(--mid);;
+  text-align: center;
+  border-bottom: 1px solid var(--mid);
+  padding-top: 5px;
+  font-family: "Tenor Sans";
 }
+
 /********************RIGHT SIDE********************/
 main > section:last-child {
   width: 76%;
