@@ -18,26 +18,26 @@
 html, body, main {
   height: 100%;
   width: 100%;
-  background-color: var(--darkest);
+  background-color: var(--mid);
 }
 
-main > article {
+main {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   align-items: center;
-  height: 95%;
-  width: 95%;
 }
 
-article section:first-child {
-  height: 100%;
-  width: 100px;
-  background-color: pink;
+main > section:first-child,
+main > section:last-child {
+  height: 90%;
+  border-radius: 10px;
+  background-color: var(--lighter);
 }
 
-article section:last-child {
-  height: 100%;
+main > section:first-child {
   width: 100px;
-  background-color: pink;
+}
+
+main > section:last-child {
+  width: 500px;
 }
