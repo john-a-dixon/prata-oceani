@@ -1,130 +1,43 @@
-/* UNIVERSAL */
+/********************UNIVERSAL********************/
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  background-color: var(--a);
 }
 
 :root {
   /* Colors */
-  --a: hsl(238, 56%, 13%);
-  --b: hsl(218, 43%, 37%);
-  --c: hsl(192, 54%, 67%);
-  --d: hsl(177, 46%, 91%);
-  --e: hsl(177, 76%, 81%);
-
-  /* Fonts */
-  --body: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  --darkest: hsl(240, 18%, 14%);
+  --darker: hsl(238, 18%, 31%);
+  --mid: hsl(237, 18%, 48%);
+  --lighter: hsl(237, 34%, 65%);
+  --lightest: hsl(237, 83%, 82%);
 }
 
-h1,
-h2 {
-  text-align: center;
-  color: var(--d);
+/********************BASE********************/
+html, body, main {
+  height: 100%;
+  width: 100%;
+  background-color: var(--darkest);
 }
 
-h1 {
-  color: var(--e);
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  word-spacing: 0.3em;
-  letter-spacing: 0.7em;
-  font-size: 48px;
+main > article {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 95%;
 }
 
-h2 {
-  color: var(--c);
-}
-
-p {
-  color: var(--d);
-  font-family: Truculenta;
-  font-weight: lighter;
-}
-
-a {
-  color: var(--b);
-  cursor: cell;
-}
-
-a:hover {
-  color: yellow;
-  text-decoration: line-through;
-}
-
-a:active {
-  text-decoration: overline;
-  color: green;
-}
-/* HEADER */
-li {
-  display: inline-block;
+article section:first-child {
+  height: 100%;
   width: 100px;
-  margin: 0 auto;
+  background-color: pink;
 }
 
-ul {
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-nav {
-  position: sticky;
-  top: 0px;
-}
-
-/* ALL SECTIONS */
-section {
-  width: 75%;
-  margin: 0 auto;
-}
-
-figure {
-  margin: 0 auto;
-}
-
-figcaption {
-  font-size: small;
-  font-style: italic;
-  color: var(--c)
-}
-
-img {
-  width: 500px;
-}
-
-/* ID */
-#declaration {
-  text-align: center;
-  font-family: sans-serif;
-  margin: 0 auto;
-}
-
-button {
-  display: block;
-  cursor: pointer;
-  border: none;
+article section:last-child {
+  height: 100%;
   width: 100px;
-  height: 40px;
-  margin: 0 auto;
-  background-color: var(--c);
-  font-family: Truculenta;
-  border-radius: 10px;
-  transition-property: background-color, width, height;
-  transition-duration: 150ms;
-}
-
-button:hover {
-  width: 105px;
-  height: 45px;
-  background-color: azure;
-  transition-property: background-color, width, height;
-  transition-duration: 150ms;
-}
-
-button:active {
-  font-size: 18px;
-  background-color: red;
+  background-color: pink;
 }
