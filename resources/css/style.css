@@ -88,3 +88,9 @@ main {
   background-color: transparent;
   height: 100%;
 }
+
+#main-view h1 {
+  font-family: "Playfair Display SC";
+  color: var(--lightest);
+  font-size: 100px;
+}
