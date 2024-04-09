@@ -53,14 +53,14 @@ main {
   top: 10px;
 }
 
-#side-panel ul {
+#side-panel .unit {
   margin: 0 auto;
   position: relative;
   top: 65px;
   margin-bottom: 85px;
 }
 
-#side-panel li {
+#side-panel .unit {
   display: block;
   height: 85px;
   width: 85px;
@@ -69,9 +69,10 @@ main {
   border-radius: 10px;
   transition: height 200ms, width 200ms;
   cursor: pointer;
+  box-shadow: 0px 0px 4px hsla(0, 0%, 0%, 30%);
 }
 
-#side-panel li:hover {
+#side-panel .unit:hover {
   display: block;
   background-color: var(--mid);
   transition: font-size 200ms;
