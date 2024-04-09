@@ -22,46 +22,15 @@ html, body, main {
 }
 
 main {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-main > section:first-child,
-main > section:last-child {
-  height: 93%;
-  border-radius: 10px;
-  background-color: var(--lighter);
-  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.05);
+  display: grid;
 }
 
 /********************LEFT SIDE********************/
 main > section:first-child {
-  width: 5%;
-}
-
-main > section:first-child > h2 {
-  display: block;
   background-color: var(--darker);
-  color: var(--lightest);
-  border-radius: 10px 10px 0 0;
-  height: 40px;
-  width: 100%;
-  text-align: center;
-  padding-top: 5px;
-  font-family: "Tenor Sans";
-}
-
-main > section:first-child li {
-  display: block;
-  height: 30px;
-  text-align: center;
-  border-bottom: 1px solid var(--mid);
-  padding-top: 5px;
-  font-family: "Tenor Sans";
 }
 
 /********************RIGHT SIDE********************/
 main > section:last-child {
-  width: 76%;
+  background-color: var(--mid);
 }
