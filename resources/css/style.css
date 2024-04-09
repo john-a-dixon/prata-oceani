@@ -22,15 +22,33 @@ html, body, main {
 }
 
 main {
-  display: grid;
+  background-color: var(--mid);
+  display: flex;
 }
 
 /********************LEFT SIDE********************/
 main > section:first-child {
+  height: 100%;
+  width: 110px;
   background-color: var(--darker);
+  overflow-y: auto;
+}
+
+main > section:first-child ul {
+  margin: 0 auto;
+}
+
+main > section:first-child li {
+  display: block;
+  height: 90px;
+  width: 90px;
+  background-color: var(--mid);
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
 /********************RIGHT SIDE********************/
 main > section:last-child {
-  background-color: var(--mid);
+  background-color: transparent;
+  height: 100%;
 }
