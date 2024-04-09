@@ -27,7 +27,7 @@ main {
 }
 
 /********************LEFT SIDE********************/
-main > section:first-child {
+#side-panel {
   height: 100%;
   width: 115px;
   background-color: var(--darker);
@@ -35,14 +35,14 @@ main > section:first-child {
   scrollbar-width: none;
 }
 
-main > section:first-child div {
+#side-panel div {
   position: fixed;
   width: 115px;
   background-color: var(--darker);
   z-index: 7;
 }
 
-main > section:first-child h2 {
+#side-panel h2 {
   display: block;
   width: 95px;
   height: 50px;
@@ -53,14 +53,14 @@ main > section:first-child h2 {
   top: 10px;
 }
 
-main > section:first-child ul {
+#side-panel ul {
   margin: 0 auto;
   position: relative;
   top: 65px;
   margin-bottom: 85px;
 }
 
-main > section:first-child li {
+#side-panel li {
   display: block;
   height: 85px;
   width: 85px;
@@ -71,7 +71,7 @@ main > section:first-child li {
   cursor: pointer;
 }
 
-main > section:first-child li:hover {
+#side-panel li:hover {
   display: block;
   background-color: var(--mid);
   transition: font-size 200ms;
