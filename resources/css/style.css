@@ -62,12 +62,13 @@ main > section:first-child ul {
 
 main > section:first-child li {
   display: block;
-  height: 90px;
-  width: 90px;
+  height: 85px;
+  width: 85px;
   background-color: var(--mid);
-  margin: 12.5px auto;
+  margin: 15px auto;
   border-radius: 10px;
   transition: height 200ms, width 200ms;
+  cursor: pointer;
 }
 
 main > section:first-child li:hover {
