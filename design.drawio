@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-09T00:51:52.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WV_uW2jqxWFa1S4PQYeQ" version="24.1.0" type="device">
+<mxfile host="Electron" modified="2024-04-09T23:30:19.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="tWtGurLGc7-Lrq78w0_E" version="24.1.0" type="device">
   <diagram name="Page-1" id="k8o6A5WAioBt1qZGyV_W">
-    <mxGraphModel dx="4651" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2498" dy="260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,8 @@
         <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-42" value="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#646790;connectable=0;allowArrows=0;aspect=fixed;arcSize=10;fontColor=#d0d2fb;fontSize=40;fontFamily=Libre Baskerville;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLibre%2BBaskerville;shadow=1;shadowOffsetY=0;shadowOffsetX=0;" vertex="1" parent="1">
           <mxGeometry x="14" y="86" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-43" value="Sc." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#1d1d2a;connectable=0;allowArrows=0;arcSize=21;fontSize=36;fontFamily=Libre Baskerville;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLibre%2BBaskerville;fontColor=#d0d2fb;textShadow=1;" vertex="1" parent="1">
-          <mxGeometry x="14" y="16" width="110" height="50" as="geometry" />
+        <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-43" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#1d1d2a;connectable=0;allowArrows=0;arcSize=0;fontSize=22;fontFamily=Noto Serif Japanese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSerif%2BJapanese;fontColor=#d0d2fb;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-44" value="2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#878ac4;connectable=0;allowArrows=0;aspect=fixed;arcSize=10;fontFamily=Libre Baskerville;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLibre%2BBaskerville;fontColor=#d0d2fb;labelBackgroundColor=none;fontSize=57;shadow=1;shadowOffsetX=0;shadowOffsetY=2;shadowBlur=4;shadowOpacity=30;" vertex="1" parent="1">
           <mxGeometry x="14" y="216" width="110" height="110" as="geometry" />
@@ -67,19 +67,14 @@
         <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis. Viverra aliquet eget sit amet tellus. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Turpis nunc eget lorem dolor sed viverra. Etiam dignissim diam quis enim lobortis. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Velit egestas dui id ornare arcu odio ut sem nulla. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Non nisi est sit amet facilisis. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Nisi vitae suscipit tellus mauris a diam maecenas sed. Eleifend donec pretium vulputate sapien. Ipsum faucibus vitae aliquet nec ullamcorper. Sed blandit libero volutpat sed cras ornare. Lobortis feugiat vivamus at augue eget.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=36;fontFamily=EB Garamond;verticalAlign=top;fontColor=#d0d2fb;fontStyle=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DEB%2BGaramond;" vertex="1" parent="1">
           <mxGeometry x="310" y="290" width="1420" height="870" as="geometry" />
         </mxCell>
-        <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnoqgQ85ZHBMjgRVOAB5-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="14" y="26" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-136" y="26" />
-              <mxPoint x="-61" y="26" />
-              <mxPoint x="-61" y="27" />
-              <mxPoint x="14" y="27" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-56" value="&amp;nbsp; - Scene&lt;div&gt;&amp;nbsp; - Sequence&lt;br&gt;&lt;div&gt;&amp;nbsp; - Act&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; - Story&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-256" y="11" width="120" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-58" value="Sequences" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#646790;connectable=0;allowArrows=0;arcSize=50;fontSize=18;fontFamily=Alegreya Sans SC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlegreya%2BSans%2BSC;fontColor=#d0d2fb;textShadow=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="9.190000000000001" y="10" width="121.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnoqgQ85ZHBMjgRVOAB5-60" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;rounded=1;strokeColor=none;fillColor=#d0d2fb;aspect=fixed;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="110.29" y="21.37" width="7.71" height="9.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
