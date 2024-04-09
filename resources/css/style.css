@@ -82,7 +82,7 @@ main {
 
 
 /********************RIGHT SIDE********************/
-main > section:last-child {
+#main-view {
   background-color: transparent;
   height: 100%;
 }
