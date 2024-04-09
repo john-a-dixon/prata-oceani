@@ -67,7 +67,7 @@ main {
   background-color: var(--mid);
   margin: 15px auto;
   border-radius: 10px;
-  transition: height 200ms, width 200ms;
+  transition: height 200ms, width 200ms, box-shadow 200ms;
   cursor: pointer;
   box-shadow: 0px 0px 4px hsla(0, 0%, 0%, 30%);
 }
@@ -78,7 +78,8 @@ main {
   transition: font-size 200ms;
   height: 95px;
   width: 95px;
-  transition: height 200ms, width 200ms;
+  box-shadow: 0px 0px 8px hsla(0, 0%, 0%, 40%);
+  transition: height 200ms, width 200ms, box-shadow 200ms;
 }
 
 
