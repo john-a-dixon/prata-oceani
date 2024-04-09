@@ -29,9 +29,16 @@ main {
 /********************LEFT SIDE********************/
 main > section:first-child {
   height: 100%;
-  width: 110px;
+  width: 115px;
   background-color: var(--darker);
-  overflow-y: auto;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+main > section:first-child h2 {
+  display: block;
+  width: 90px;
+  margin: 12.5px auto;
 }
 
 main > section:first-child ul {
@@ -43,10 +50,19 @@ main > section:first-child li {
   height: 90px;
   width: 90px;
   background-color: var(--mid);
-  margin: 10px auto;
+  margin: 12.5px auto;
   border-radius: 10px;
+  transition: height 200ms, width 200ms;
 }
 
+main > section:first-child li:hover {
+  display: block;
+  height: 95px;
+  width: 95px;
+  background-color: var(--mid);
+  margin: 10px auto;
+  transition: height 200ms, width 200ms;
+}
 /********************RIGHT SIDE********************/
 main > section:last-child {
   background-color: transparent;
