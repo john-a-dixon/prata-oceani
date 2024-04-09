@@ -35,11 +35,19 @@ main > section:first-child {
   scrollbar-width: none;
 }
 
+main > section:first-child div {
+  position: fixed;
+  left: 10px;
+  
+}
+
 main > section:first-child h2 {
   display: block;
-  width: 90px;
+  width: 95px;
+  height: 50px;
   margin: 12.5px auto;
   background-color: var(--darkest);
+  border-radius: 10px;
 }
 
 main > section:first-child ul {
