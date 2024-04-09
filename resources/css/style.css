@@ -39,6 +39,7 @@ main > section:first-child h2 {
   display: block;
   width: 90px;
   margin: 12.5px auto;
+  background-color: var(--darkest);
 }
 
 main > section:first-child ul {
