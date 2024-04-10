@@ -72,6 +72,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Libre Baskerville";
+  font-size: 36px;
 }
 
 #side-panel .unit:hover {
@@ -95,10 +97,10 @@ main {
 }
 
 #side-panel .unit p:first-child {
-  color: red;
   position: absolute;
   top: 5px;
   left: 5px;
+  font-size: 12px;
 }
 
 /********************RIGHT SIDE********************/
