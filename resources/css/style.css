@@ -93,4 +93,7 @@ main {
   font-family: "Playfair Display SC";
   color: var(--lightest);
   font-size: 100px;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: fit-content;
 }
