@@ -74,7 +74,6 @@ main {
 
 #side-panel .unit:hover {
   display: block;
-  background-color: var(--mid);
   transition: font-size 200ms;
   height: 95px;
   width: 95px;
@@ -87,6 +86,12 @@ main {
   transition: background-color 150ms;
 }
 
+#side-panel .active {
+  background-color: var(--lightest);
+  height: 95px;
+  width: 95px;
+  cursor: auto;
+}
 /********************RIGHT SIDE********************/
 #main-view {
   background-color: transparent;
