@@ -66,7 +66,7 @@ main {
   background-color: var(--mid);
   margin: 15px auto;
   border-radius: 10px;
-  transition: height 200ms, width 200ms, box-shadow 200ms, background-color 150ms;
+  transition: height 150ms, width 150ms, box-shadow 150ms, background-color 150ms;
   cursor: pointer;
   box-shadow: 0px 0px 4px hsla(0, 0%, 0%, 30%);
   display: flex;
@@ -74,14 +74,15 @@ main {
   align-items: center;
   font-family: "Libre Baskerville";
   font-size: 36px;
+  color: var(--lightest);
 }
 
 #side-panel .unit:hover {
-  transition: font-size 200ms;
+  transition: font-size 150ms;
   height: 95px;
   width: 95px;
   box-shadow: 0px 0px 8px hsla(0, 0%, 0%, 40%);
-  transition: height 200ms, width 200ms, box-shadow 200ms;
+  transition: height 150ms, width 150ms, box-shadow 150ms;
 }
 
 #side-panel .unit:active {
@@ -94,6 +95,7 @@ main {
   height: 95px;
   width: 95px;
   cursor: auto;
+  color: var(--darker);
 }
 
 #side-panel .unit p:first-child {
