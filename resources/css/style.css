@@ -56,7 +56,7 @@ main {
 #side-panel .unit {
   margin: 0 auto;
   position: relative;
-  top: 65px;
+
   margin-bottom: 85px;
 }
 
@@ -87,7 +87,7 @@ main {
 
 #side-panel .unit:active {
   background-color: hsl(237, 83%, 95%);
-  transition: background-color 150ms;
+  transition: background-color 100ms;
 }
 
 #side-panel .active {
