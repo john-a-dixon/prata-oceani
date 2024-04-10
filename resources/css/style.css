@@ -101,11 +101,16 @@ main {
 #main-view textarea {
   font-family: "Playfair Display SC";
   resize: none;
-  width: 300px;
+  width: 1000px;
   border: none;
   background-color: transparent;
   color: var(--lightest);
   margin-left: 100px;
+  font-family: "Playfair";
+  font-size: large;
+  /* height: 100%; */
+  overflow: auto;
+  scrollbar-width: none;
 }
 
 #main-view textarea:focus {
@@ -113,5 +118,5 @@ main {
 }
 
 #main-view textarea::placeholder {
-  color: var(--lightest);;
+  color: var(--lightest);
 }
