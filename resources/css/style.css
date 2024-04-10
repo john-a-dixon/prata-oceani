@@ -97,3 +97,21 @@ main {
   margin-top: 30px;
   width: fit-content;
 }
+
+#main-view textarea {
+  font-family: "Playfair Display SC";
+  resize: none;
+  width: 300px;
+  border: none;
+  background-color: transparent;
+  color: var(--lightest);
+  margin-left: 100px;
+}
+
+#main-view textarea:focus {
+  outline: none;
+}
+
+#main-view textarea::placeholder {
+  color: var(--lightest);;
+}
