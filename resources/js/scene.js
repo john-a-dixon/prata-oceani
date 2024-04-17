@@ -3,12 +3,14 @@ const scene = (number, title = "Untitled") => {
   return {
     number,
     title,
-    characters: [],
-    // Intended emotions. True scene produce emeotions in characters and audience.
-    actions: [],
-    emotions: {
-      character: "", 
-      audience: ""
+    characters: {
+      // Denotes characters mentioned in the scene.
+      mentioned: [],
+      // Denotes characters actively participating in the scene.
+      active: []
+    },
+    conflict: {
+
     },
     world: { // All scene have world elements, such as a setting
       setting: ""
