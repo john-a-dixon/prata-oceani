@@ -1,4 +1,4 @@
-class Climax {
+class Resolution {
   constructor() {
 
   }
