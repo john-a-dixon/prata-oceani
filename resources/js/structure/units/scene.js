@@ -18,4 +18,8 @@ const scene = (number, title = "Untitled") => {
   }
 }
 
-console.log(scene());
+class Scene {
+  constructor() {
+
+  }
+};
