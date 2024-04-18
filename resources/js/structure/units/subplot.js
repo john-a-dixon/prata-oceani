@@ -1,4 +1,4 @@
-class Beat {
+class Subplot {
   constructor() {
 
   }
