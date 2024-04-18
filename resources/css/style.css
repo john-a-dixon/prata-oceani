@@ -130,7 +130,6 @@ main {
   margin-left: 100px;
   font-family: "Playfair";
   font-size: large;
-  /* height: 100%; */
   overflow: auto;
   scrollbar-width: none;
 }
