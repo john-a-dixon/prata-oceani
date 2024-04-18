@@ -1,0 +1,5 @@
+class Crisis {
+  constructor() {
+
+  }
+};
