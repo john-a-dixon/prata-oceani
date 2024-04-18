@@ -12,6 +12,7 @@
   --mid: hsl(237, 18%, 48%);
   --lighter: hsl(237, 34%, 65%);
   --lightest: hsl(237, 83%, 90%);
+  --lighter-lightest: hsl(237, 83%, 95%);
 }
 
 /********************BASE********************/
@@ -85,7 +86,7 @@ main {
 }
 
 #side-panel .unit:active {
-  background-color: hsl(237, 83%, 95%);
+  background-color: var(--lighter-lightest);
   transition: background-color 100ms;
 }
 
@@ -125,7 +126,7 @@ main {
   width: 1000px;
   border: none;
   background-color: transparent;
-  color: var(--lightest);
+  color: var(--lighter-lightest);
   margin-left: 100px;
   font-family: "Playfair";
   font-size: large;
