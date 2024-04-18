@@ -17,3 +17,7 @@ class Scene {
     }
   }
 };
+
+const scene = new Scene();
+
+console.log(scene);
