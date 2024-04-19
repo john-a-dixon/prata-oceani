@@ -2,11 +2,8 @@ const { Structure } = require("./Structure.js")
 
 class Scene extends Structure {
   //----------------------------------------------------------------------CONSTRUCTOR 
-  constructor({number=0, title="Untitled"}) {
+  constructor() {
     super();
-
-    this._number = number
-    this._title = title
     this._characters = {
       // Denotes characters actively participating in the scene.
       mentioned: [],
