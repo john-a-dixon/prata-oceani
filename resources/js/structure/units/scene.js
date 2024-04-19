@@ -1,7 +1,8 @@
-class Scene {
-  //----------------------------------------------------------------------CONSTRUCTOR
-  // https://www.mslinn.com/blog/2021/02/11/javascript-named-arguments.html
+class Scene extends Structure {
+  //----------------------------------------------------------------------CONSTRUCTOR 
   constructor({number=0, title="Untitled"}) {
+    super();
+
     this._number = number
     this._title = title
     this._characters = {
@@ -29,5 +30,6 @@ class Scene {
 };
 
 const scene = new Scene({title: "Test"});
+console.log(scene.constructor.name);
 
-console.log(scene);
+module.exports = Structure();
