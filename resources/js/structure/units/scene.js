@@ -1,3 +1,5 @@
+const { Structure } = require("./Structure.js")
+
 class Scene extends Structure {
   //----------------------------------------------------------------------CONSTRUCTOR 
   constructor({number=0, title="Untitled"}) {
@@ -31,5 +33,3 @@ class Scene extends Structure {
 
 const scene = new Scene({title: "Test"});
 console.log(scene.constructor.name);
-
-module.exports = Structure();
