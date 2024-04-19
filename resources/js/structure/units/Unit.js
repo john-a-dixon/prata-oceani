@@ -4,7 +4,7 @@ class Unit {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor(unit) {
     this._id = randomUUID();
-    this._location = {}
+    this._location = Unit.setupLocation(unit);
   }
 
   //----------------------------------------------------------------------GETTERS
@@ -14,8 +14,15 @@ class Unit {
 
   //----------------------------------------------------------------------SETTERS
 
+
   //----------------------------------------------------------------------HELPERS
+  static setupLocation(unit) {
+    return {a: 9}
+  }
 
 };
+
+const test = new Unit("beat");
+console.log(test);
 
 module.exports = { Unit };
