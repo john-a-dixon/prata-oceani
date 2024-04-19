@@ -1,9 +1,10 @@
 class Structure {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
-    this._id = 0
-    this._order = ""
-    this._title = "Untitled"
+    this._id = 0;
+    this._order = "";
+    
+    this._title = "Untitled";
   }
 
   //----------------------------------------------------------------------GETTERS
