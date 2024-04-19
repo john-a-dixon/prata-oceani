@@ -1,6 +1,6 @@
 const { randomUUID } = require("crypto");
 
-class Structure {
+class Unit {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor(unit) {
     this._id = randomUUID();
@@ -16,4 +16,4 @@ class Structure {
 
 };
 
-module.exports = { Structure };
+module.exports = { Unit };

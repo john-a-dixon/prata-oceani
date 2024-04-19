@@ -1,9 +1,10 @@
-const { Structure } = require("./Structure.js")
+const { Unit } = require("./Unit.js")
 
-class Beat extends Structure {
+class Beat extends Unit {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
     super("beat");
+    
     this._action = {
       character: "",
       behavior: ""

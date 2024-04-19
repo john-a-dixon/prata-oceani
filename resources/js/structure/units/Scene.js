@@ -1,6 +1,6 @@
-const { Structure } = require("./Structure.js")
+const { Unit } = require("./Unit.js")
 
-class Scene extends Structure {
+class Scene extends Unit {
   //----------------------------------------------------------------------CONSTRUCTOR 
   constructor() {
     super();
