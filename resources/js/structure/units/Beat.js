@@ -1,6 +1,9 @@
-class Beat {
+const { Structure } = require("./Structure.js")
+
+class Beat extends Structure {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
+    super("beat");
     this._action = {
       character: "",
       behavior: ""
@@ -18,3 +21,6 @@ class Beat {
   //----------------------------------------------------------------------HELPERS
   
 };
+
+const beat = new Beat();
+console.log(beat);
