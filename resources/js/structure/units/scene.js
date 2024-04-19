@@ -16,9 +16,10 @@ class Scene extends Structure {
     this._conflict = {
 
     }
-    // All scene have world elements, such as a setting
+    // All scenes have world elements, such as a setting
     this._world = {
-      setting: ""
+      setting: "",
+      factions: []
     }
   }
 
