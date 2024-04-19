@@ -1,7 +1,9 @@
 class Scene {
-  constructor() {
-    this._number = 0
-    this._title = "Untitled"
+  //----------------------------------------------------------------------CONSTRUCTOR
+  // https://www.mslinn.com/blog/2021/02/11/javascript-named-arguments.html
+  constructor({number=0, title="Untitled"}) {
+    this._number = number
+    this._title = title
     this._characters = {
       // Denotes characters actively participating in the scene.
       mentioned: [],
@@ -16,8 +18,16 @@ class Scene {
       setting: ""
     }
   }
+
+  //----------------------------------------------------------------------GETTERS
+
+  //----------------------------------------------------------------------SETTERS
+
+  //----------------------------------------------------------------------HELPERS
+
+
 };
 
-const scene = new Scene();
+const scene = new Scene({title: "Test"});
 
 console.log(scene);
