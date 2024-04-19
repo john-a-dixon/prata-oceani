@@ -1,7 +1,14 @@
 class Beat {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
-    
+    this._action = {
+      character: "",
+      behavior: ""
+    };
+    this._reaction = {
+      character: "",
+      behavior: ""
+    };
   }
 
   //----------------------------------------------------------------------GETTERS
