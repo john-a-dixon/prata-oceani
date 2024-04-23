@@ -10,9 +10,7 @@ class Scene extends Unit {
       // Denotes characters actively participating in the scene.
       active: []
     }
-    this._conflict = {
-
-    }
+    this._conflict = {}
     // All scenes have world elements, such as a setting
     this._world = {
       setting: "",
