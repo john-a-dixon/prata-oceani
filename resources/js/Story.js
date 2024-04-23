@@ -1,7 +1,10 @@
 class Story {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
-    
+    this.structure = {};
+    this.world = {};
+    this.genre = {};
+    this.characters = {};
   }
 
   //----------------------------------------------------------------------GETTERS
