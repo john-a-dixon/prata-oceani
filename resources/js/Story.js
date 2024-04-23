@@ -1,10 +1,14 @@
 class Story {
   //----------------------------------------------------------------------CONSTRUCTOR
   constructor() {
-    this.structure = {};
+    this.structure = {
+      phases: {},
+      units: {}
+    };
     this.world = {};
     this.genre = {};
     this.characters = {};
+    this.idea = {};
   }
 
   //----------------------------------------------------------------------GETTERS
